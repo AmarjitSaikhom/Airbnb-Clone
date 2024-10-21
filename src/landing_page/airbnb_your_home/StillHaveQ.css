@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.stillHaveQ-container {
+    width: 100%;
+    background-color: #F7F7F7;
+    text-align: center;
+}
+
+.stillHaveQ-container h1 {
+    font-family: "Poppins", system-ui;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+.stillHaveQ-container h3 {
+    font-family: "Poppins", system-ui;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: #454040;
+    margin-bottom: 40px;
+}
+
+.stillHaveQ-container button {
+    font-family: "Poppins", system-ui;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 14px 100px;
+    border-radius: 50px;
+    background-color: #161616f2;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin-bottom: 90px;
+}
+
+.co-host {
+    width: 100%;
+    border-top: 1px solid #e3d8d8;
+    padding: 20px 60px;
+}
+
+.co-host p {
+    font-family: "Poppins", system-ui;
+    font-size: 0.9rem;
+    text-align: left;
+    color: #4e4848;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.co-host p a {
+    font-family: "Poppins", system-ui;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #4e4848;
+}

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.easyAirbnb-container {
+    position: relative;
+    width: 100%;
+    padding: 40px 0;
+    margin-bottom: 90px;
+}
+
+.easyAirbnb-container h1 {
+    font-family: "Poppins", system-ui;
+    font-size: 3.4rem;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 50px;
+}
+
+.easyAirbnb-container img {
+    display: block;
+    width: 70%;
+    margin: auto;
+    object-fit: cover;
+}
+
+.easyAirbnb-create-listing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 68%;
+    margin: auto;
+}
+
+.easyAirbnb-listing-icons {
+    width: 32%;
+    height: 120px;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.easyAirbnb-listing-icons i {
+    font-size: 1.5rem;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.easyAirbnb-listing-icons p {
+    font-family: "Poppins", system-ui;
+    font-size: 1.1rem;
+    color: #1f1d1d;
+    margin-top: 15px;
+}
+
+.easyAirbnb-container button {
+    display: block;
+    font-family: "Poppins", system-ui;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 12px 80px;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: #000;
+    margin: auto;
+    cursor: pointer;
+}

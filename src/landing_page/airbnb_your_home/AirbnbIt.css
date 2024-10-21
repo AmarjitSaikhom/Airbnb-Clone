@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.airbnbIt-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    margin-bottom: 90px;
+}
+
+.airbnbIt-left {
+    width: 50%;
+}
+
+.airbnbIt-left h1 {
+    font-family: "Poppins", system-ui;
+    text-align: center;
+    font-size: 3.6rem;
+    color: #222222;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0px;
+    margin-bottom: 1.5rem;
+}
+
+.night-on {
+    visibility: hidden;
+}
+
+.airbnbIt-left p {
+    font-family: "Poppins", system-ui;
+    text-align: center;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 500;
+}
+
+.airbnbIt-left a {
+    font-family: "Poppins", system-ui;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #534b4b;
+    text-decoration: none;
+}
+
+.airbnbIt-left p span {
+    text-decoration: underline;
+}
+
+.range-slider {
+    max-width: 60%;
+    height: 30px;
+    margin: 50px auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.range-slider .slider {
+    appearance: none;
+    width: 100%;
+    height: 5px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #e2dcdc;
+}
+
+.range-slider .slider:active {
+    height: 10px;
+    border-radius: 6px;
+}
+
+.range-slider .slider::-webkit-slider-thumb {
+    appearance: none;
+    height: 35px;
+    width: 35px;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+    box-shadow: 2px 3px 4px #a9a6a6, 1px 1px 2px #a9a6a6;
+    cursor: pointer;
+    z-index: 3;
+    position: relative;
+}
+
+.range-slider .tooltip {
+    position: absolute;
+    top: -90px;
+    left: 0%;
+    padding: 11px 25px;
+    background-color: #000;
+    font-family: "Poppins", system-ui;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 50px;
+    display: none;
+}
+
+.range-slider .tooltip.block {
+    display: block; /* Shows tooltip when 'block' class is added */
+}
+
+.range-slider .progress {
+    width: 0%;
+    height: 5px;
+    border-radius: 6px;
+    background-color: #E31C5D;
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+}
+
+.range-slider .active-progress {
+    height: 10px;
+}
+
+.range-slider .active-progress {
+    height: 10px;
+}
+
+.airbnbIt-left-search {
+    width: 80%;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0px 0px 2px #a89e9e;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.airbnbIt-left-search i {
+    color: rgb(226, 29, 92);
+    margin-right: 20px;
+}
+
+.airbnbIt-left-search p {
+    font-family: "Poppins", system-ui;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.airbnbIt-left-search .muted-color {
+    color: #7b6d6d;
+}
+
+.airbnbIt-right {
+    width: 50%;
+}
+
+.airbnbIt-right img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}

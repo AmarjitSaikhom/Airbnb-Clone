@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.filter {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+.filter-cover {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    padding: 0 2rem;
+}
+
+@media (max-width: 430px) {
+    .filter-cover {
+        padding: 0 1rem;
+    }
+}
+
+.filter-icons {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+.filter-icons::-webkit-scrollbar {
+    -webkit-appearance: none;
+    height: 0;
+}
+
+.icon {
+    height: 65px;
+    margin-right: 2.6rem;
+    text-align: center;
+    flex-shrink: 0;
+    opacity: 0.9;
+    border-radius: 2px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+@media (max-width: 430px) {
+    .icon {
+        margin-right: 1.6rem;
+    }
+}
+
+.icon:hover {
+    border-bottom: 2px solid rgba(154, 149, 149, 0.656);
+}
+
+.icon img {
+    width: 28px;
+    height: 28px;
+    opacity: 0.7;
+    margin-bottom: 0.3rem;
+    transition: opacity 0.2s ease;
+}
+
+@media (max-width: 430px) {
+    .icon img {
+        width: 26px;
+        height: 26px;
+    }
+}
+
+.icon:hover img {
+    opacity: 0.9;
+}
+
+.icon p {
+    font-family: "Poppins", system-ui;
+    font-size: 0.8rem;
+    color: #4d4747;
+    font-weight: 500;
+}
+
+@media (max-width: 430px) {
+    .icon p {
+        font-size: 0.7rem;
+    }
+}
+
+.icon:hover p {
+    color: #000;
+}
+
+.icon-nevigator-right {
+    position: absolute;
+    top: 0;
+    right: 2.4%;
+    z-index: 1;
+    width: 5%;
+    height: 100%;
+}
+
+@media (max-width: 430px) {
+    .icon-nevigator-right {
+        display: none;
+    }
+}
+
+.icon-nevigator-left {
+    position: absolute;
+    top: 0;
+    left: 2.4%;
+    z-index: 1;
+    width: 5%;
+    height: 100%;
+    display: none;
+}
+
+.navigator-arrow {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.navigator-arrow i {
+    height: 32px;
+    width: 32px;
+    font-size: 0.7rem;
+    text-align: center;
+    line-height: 32px;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid rgba(155, 149, 149, 0.915);
+}
+
+.icon-nevigator-right .navigator-arrow {
+    justify-content: end;
+    background: linear-gradient(0.25turn, #ffffff5b, #ffffffef, #fff);
+}
+
+.icon-nevigator-left .navigator-arrow {
+    justify-content: start;
+    background: linear-gradient(0.75turn, #ffffff5b, #ffffffef, #fff);
+}

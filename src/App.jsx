@@ -1,9 +1,13 @@
-import './App.css'
+import NavPage from "./landing_page/Nav/NavPage";
+import AllCards from "./landing_page/home/AllCards";
 
 function App() {
-    return <dev>
-        <h1>Hello World</h1>
-    </dev>
+  return (
+    <>
+      <NavPage />
+      <AllCards />
+    </>
+  );
 }
 
-export default App
+export default App;

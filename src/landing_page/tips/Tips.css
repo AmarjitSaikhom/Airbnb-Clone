@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.trips-container {
+    width: 100%;
+    padding: 0 0 80px 0;
+}
+
+.trips-nav {
+    border-bottom: 1px solid #ece7e7;
+    padding: 0 40px;
+}
+
+.trips {
+    width: 89%;
+    padding: 30px 0;
+    margin: 0 73px;
+    border-bottom: 1px solid #e4dcdc;
+}
+
+.trips h1 {
+    font-family: "Poppins", system-ui;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.trips-book {
+    width: 89%;
+    padding: 30px 0 40px 0;
+    margin: 0 73px;
+    border-bottom: 1px solid #e4dcdc;
+
+}
+
+.trips-book h2 {
+    font-family: "Poppins", system-ui;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.trips-book p {
+    font-family: "Poppins", system-ui;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.trips-book button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    font-family: "Poppins", system-ui;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.visit-help-center {
+    width: 89%;
+    padding: 25px 0 40px 0;
+    margin: 0 73px;
+}
+
+.visit-help-center p {
+    font-family: "Poppins", system-ui;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.visit-help-center a {
+    font-family: "Poppins", system-ui;
+    color: #000;
+    font-weight: 500;
+}

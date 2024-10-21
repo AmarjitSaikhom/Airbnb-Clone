@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wishlist-container {
+    width: 100%;
+}
+
+.wishlist-nav {
+    padding: 0 40px;
+}
+
+.wishlist-cards {
+    width: 100%;
+    padding: 40px 72px;
+    border-top: 1px solid #ece8e8;
+}
+
+.wishlist-cards h1 {
+    font-family: "Poppins", system-ui;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.wishlist-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+
+    @media (max-width:1126px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (max-width:948px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width:430px) {
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+}
+
+.wishlist-card {
+    margin-bottom: 20px;
+}
+
+.recently-view {
+    position: relative;
+    width: 100%;
+    height: 19vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #615e5e;
+    overflow: hidden;
+}
+
+.recently-view div {
+    width: 100%;
+    height: 100%;
+    background-color: #5e5b5b;
+}
+
+.wishlist-card h5 {
+    font-family: "Poppins", system-ui;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #000000f4;
+    margin-top: 6px;
+}
+
+.wishlist-card p {
+    font-family: "Poppins", system-ui;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #000000f4;
+}

@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.airCover {
+    position: relative;
+    width: 100%;
+}
+
+.airCover img {
+    display: block;
+    width: 15%;
+    margin: auto;
+}
+
+.airCover h1 {
+    font-family: "Poppins", system-ui;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.1;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.airCover p {
+    font-family: "Poppins", system-ui;
+    font-size: 1.5rem;
+    color: #484141;
+    text-align: center;
+}
+
+.airCover-insurance {
+    width: 50%;
+    margin: 70px auto;
+}
+
+.damage-protection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 65px;
+}
+
+.damage-protection p {
+    font-family: "Poppins", system-ui;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    color: #000;
+    font-weight: 400;
+}
+
+.damage-protection i {
+    font-size: 1.4rem;
+    color: green;
+}
+
+.airCover button {
+    display: block;
+    font-family: "Poppins", system-ui;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0px;
+    padding: 14px 50px;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: #000;
+    margin: auto;
+    cursor: pointer;
+}

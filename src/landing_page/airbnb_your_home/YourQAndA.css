@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.yourQandA-container {
+    width: 100%;
+    padding: 100px 0 90px 0;
+    background-color: #F7F7F7;
+    margin-top: 30px;
+}
+
+.yourQandA-container h1 {
+    font-family: "Poppins", system-ui;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.1;
+    letter-spacing: -4px;
+    margin-bottom: 60px;
+}
+
+.question-container {
+    width: 55%;
+    margin: auto;
+}
+
+.questions {
+    width: 100%;
+    padding: 25px 0;
+    border-bottom: 1px solid #dfd1d1;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.question p {
+    font-family: "Poppins", system-ui;
+    font-size: 1.4rem;
+    letter-spacing: -1px;
+    color: #342f2f;
+}
+
+.question-box {
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+}
+
+.question-box h5 {
+    font-family: "Poppins", system-ui;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #1d1c1c;
+    margin-top: 10px;
+}
+
+.question-box p {
+    font-family: "Poppins", system-ui;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #6b6161;
+}
+
+.question-box p a {
+    font-family: "Poppins", system-ui;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #656161;
+}
